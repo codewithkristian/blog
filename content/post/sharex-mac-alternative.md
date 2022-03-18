@@ -64,7 +64,7 @@ Dropshare ([link](https://dropshare.app)) will handle our capture workflow. At $
 
 After installing Dropshare, the main bit of configuration we'll do is connecting the Backblaze B2 bucket. As seen below, this config is _very_ similar to what you'll find in the original James Ross tutorial:
 
-![Dropshare connection configuration](https://kmf.lol/ASY0ytki.png "Configuring Backblaze B2 in Dropshare")
+![Dropshare connection configuration](https://kmf.lol/9bl2cLwl.png "Configuring Backblaze B2 in Dropshare")
 
 The addition of **Domain Alias** is an important step in getting us _most of the way there_ with our custom domain integration. As I'll show later, it doesn't produce _perfect_ URLs, but it gets us very close.
 
