@@ -1,2 +1,6 @@
 div.logo__text { text-transform: none; }
 div.mermaid { margin: 0 0 1.25rem; }
+div.logo--mixed img.logo__img { 
+  max-width: 64px;
+  margin-right: .25rem; 
+}

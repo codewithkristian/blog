@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Code with Kristian"
+title = "Freeman Labs"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -7,11 +7,11 @@ theme = "mainroad"
 [markup.goldmark.renderer]
   unsafe = true
 
-[Author] # Used in authorbox
-  name = "Kristian"
+# [Author] # Used in authorbox
+#   name = "Kristian"
 
 [Params]
-  description = "Kristian's blog" # Site description. Used in meta description
+  description = "Blog for Freeman Labs" # Site description. Used in meta description
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -31,15 +31,15 @@ theme = "mainroad"
   highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
 
 [Params.style.vars]
-  highlightColor = "#1d1160" # Override highlight color
+  highlightColor = "#3083DC" # Override highlight color
   # Override font-family sets. Take care of different quotes OR escaping symbols in these params if necessary
   fontFamilyPrimary = "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
   # Secondary font-family set responsible for pre, code, kbd, and samp tags font
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  # image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Code with Kristian"
+  image = "icon.png" # Logo image. Path relative to "static"
+  title = "Freeman Labs"
   # subtitle = "Just another site" # Logo subtitle
 
 [Params.thumbnail]
@@ -50,7 +50,7 @@ theme = "mainroad"
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories"]
+  widgets = ["sidemenu", "ddg-search", "recent", "categories"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
@@ -58,4 +58,5 @@ theme = "mainroad"
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   categories_counter = false # Enable counter for each category in "Categories" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget
+  sidemenu = true
 
